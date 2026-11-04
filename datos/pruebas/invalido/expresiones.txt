@@ -1,0 +1,12 @@
+# Caso invalido: errores lexicos que se detectan antes de convertir
+3 @ 4
+(2 + 3
+2 + 3)
+((1) + (2
+2 + ñ
+2 & 3
+5 | 1
+4 = 4
+abc + 1
+True && false
+2.5 + 1

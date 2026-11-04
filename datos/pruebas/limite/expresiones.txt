@@ -1,0 +1,10 @@
+# Caso limite: expresiones minimas, muchos parentesis y sin espacios
+
+     # comentario con espacios antes del numeral
+0
+12345
+true
+(((5)))
+!!true
+1<=2&&3>=2||false!=true
+   (8+4)*2
