@@ -1,0 +1,12 @@
+linea;infija;postfija;resultado;estado
+2;3 @ 4;;posición 3: caracter no permitido: '@';ERROR
+3;(2 + 3;;posición 1: parentesis abierto sin cerrar;ERROR
+4;2 + 3);;posición 6: parentesis de cierre sin apertura;ERROR
+5;((1) + (2;;posición 1: parentesis abierto sin cerrar;ERROR
+6;2 + ñ;;posición 5: caracter no permitido: 'ñ';ERROR
+7;2 & 3;;posición 3: operador incompleto '&', se esperaba '&&';ERROR
+8;5 | 1;;posición 3: operador incompleto '|', se esperaba '||';ERROR
+9;4 = 4;;posición 3: operador incompleto '=', se esperaba '==';ERROR
+10;abc + 1;;posición 1: palabra no reconocida: 'abc', solo se aceptan true y false;ERROR
+11;True && false;;posición 1: palabra no reconocida: 'True', solo se aceptan true y false;ERROR
+12;2.5 + 1;;posición 2: caracter no permitido: '.';ERROR

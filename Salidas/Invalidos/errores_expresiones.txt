@@ -1,0 +1,11 @@
+Línea 2: 3 @ 4 -> posición 3: caracter no permitido: '@'
+Línea 3: (2 + 3 -> posición 1: parentesis abierto sin cerrar
+Línea 4: 2 + 3) -> posición 6: parentesis de cierre sin apertura
+Línea 5: ((1) + (2 -> posición 1: parentesis abierto sin cerrar
+Línea 6: 2 + ñ -> posición 5: caracter no permitido: 'ñ'
+Línea 7: 2 & 3 -> posición 3: operador incompleto '&', se esperaba '&&'
+Línea 8: 5 | 1 -> posición 3: operador incompleto '|', se esperaba '||'
+Línea 9: 4 = 4 -> posición 3: operador incompleto '=', se esperaba '=='
+Línea 10: abc + 1 -> posición 1: palabra no reconocida: 'abc', solo se aceptan true y false
+Línea 11: True && false -> posición 1: palabra no reconocida: 'True', solo se aceptan true y false
+Línea 12: 2.5 + 1 -> posición 2: caracter no permitido: '.'
