@@ -1,3 +1,6 @@
+Code.require_file("Validacion.ex", __DIR__)
+Code.require_file("Tokenizador.ex", __DIR__)
+
 defmodule Entrada do
   # Esta es la funcion que se usa para cada linea que sale del stream de Lector.leer_expresiones
   # primero se valida y solo si pasa se parte en piezas. Devuelve {:ok, tokens} o {:error, posicion, motivo}
